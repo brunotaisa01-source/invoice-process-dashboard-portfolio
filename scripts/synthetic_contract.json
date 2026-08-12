@@ -1,0 +1,12 @@
+{
+  "project_id": "project-analytics-04-invoice-process",
+  "display_name": "Invoice Process Dashboard",
+  "entrypoint": "dashboard/index.html",
+  "data_js": "dashboard/data.js",
+  "data_symbol": "DASHBOARD_DATA",
+  "rows_kind": "compressed_invoices",
+  "filter_keys": ["all_countries", "all_doc_types"],
+  "sqlite_paths": ["db/invoices.db"],
+  "ui_tokens": ["data.js", "dist/dashboard.js", "filter"],
+  "required_paths": ["README.md", "PROJECT.md", "dashboard/index.html", "dashboard/data.js", "dashboard/dist/dashboard.js", "scripts", "sql", "automation", "db/invoices.db"]
+}

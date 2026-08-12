@@ -1,0 +1,3 @@
+extraction_date,week_start,week_end,system,document_type,entry_date,posting_date,document_date,user_id,team_member,original_team_member,document_number,vendor_name,company_code,country,amount,reference,session_name,is_csv,supplier_number,payment_block,is_reversal
+2026-08-14,2026-08-07,2026-08-13,SYS-A,KR,2026-08-10,2026-08-10,2026-08-09,SYN-SYS-A-USER-001,Synthetic Owner 001,,SYN-DOC-001,Synthetic Supplier Alpha,SYN-CC-001,Northland,125.50,SYN-INV-001,SYN-SESSION-001,0,SYN-SUP-001,,0
+2026-08-14,2026-08-07,2026-08-13,SYS-B,RE,2026-08-11,2026-08-11,2026-08-10,SYN-SYS-B-USER-002,Synthetic Owner 002,,SYN-DOC-002,Synthetic Supplier Beta,SYN-CC-002,Southland,-45.00,SYN-INV-002,SYN-SESSION-002,1,SYN-SUP-002,SYN-BLOCK-001,0

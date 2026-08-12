@@ -1,0 +1,59 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-08-11T00:00:00Z",
+    "component": {
+      "type": "application",
+      "name": "invoice-process-dashboard",
+      "version": "public-fixture"
+    },
+    "properties": [
+      {
+        "name": "dependency-install-location",
+        "value": "outside-pack"
+      },
+      {
+        "name": "installed-dependency-trees-included",
+        "value": "false"
+      }
+    ]
+  },
+  "components": [
+    { "type": "library", "name": "pandas", "version": "2.2.3", "scope": "required" },
+    { "type": "library", "name": "numpy", "version": "2.4.6", "scope": "required" },
+    { "type": "library", "name": "openpyxl", "version": "3.1.5", "scope": "required" },
+    { "type": "library", "name": "pywin32", "version": "311", "scope": "required" },
+    { "type": "library", "name": "python-pptx", "version": "1.0.2", "scope": "required" },
+    { "type": "library", "name": "pytest", "version": "9.0.2", "scope": "optional" },
+    { "type": "library", "name": "pytest-cov", "version": "7.0.0", "scope": "optional" },
+    { "type": "library", "name": "playwright", "version": "1.58.0", "scope": "optional" },
+    { "type": "library", "name": "ruff", "version": "0.15.6", "scope": "optional" },
+    {
+      "type": "library",
+      "name": "Chart.js",
+      "version": "4.4.0",
+      "scope": "required",
+      "hashes": [
+        { "alg": "SHA-256", "content": "67d64765fe7e5758e8850b2172e9749ee779f1dd1b7ec12caf666a62dfca0885" }
+      ],
+      "licenses": [
+        { "license": { "id": "MIT" } }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pako",
+      "version": "2.1.0",
+      "scope": "required",
+      "hashes": [
+        { "alg": "SHA-256", "content": "f7f9354862019a7daf4d984715d41272547f90307d850ab2e18e0f892696184a" }
+      ],
+      "licenses": [
+        { "license": { "id": "MIT" } },
+        { "license": { "id": "Zlib" } }
+      ]
+    }
+  ]
+}

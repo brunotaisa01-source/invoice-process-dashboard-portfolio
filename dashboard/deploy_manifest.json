@@ -1,0 +1,6 @@
+{
+  "name": "invoice-process-fixture",
+  "entrypoint": "dashboard/index.html",
+  "data": "dashboard/data.js",
+  "source": "synthetic"
+}

@@ -1,0 +1,122 @@
+{
+  "schema_version": 2,
+  "project_id": "project-analytics-04-invoice-process",
+  "status": "RED_EXTERNAL_GATE",
+  "local_gate": "GREEN",
+  "external_gate": {
+    "status": "RED_EXTERNAL_GATE",
+    "reason": "External account, permission, endpoint, data and remote mutation were intentionally not exercised."
+  },
+  "crosswalk": {
+    "tree_snapshots": {
+      "source_a_opening": "66347ecd2d8831f7c0a13b95b99cb653b505750288d54995654f1410863752b4",
+      "source_a_closing": "66347ecd2d8831f7c0a13b95b99cb653b505750288d54995654f1410863752b4",
+      "baseline_opening": "ebdfbde6ebb976c05420a0896d70464398d45535cca467a5a61f01a01b3c946c",
+      "baseline_closing": "ebdfbde6ebb976c05420a0896d70464398d45535cca467a5a61f01a01b3c946c",
+      "repair_opening": "dcf8d9cbab11cd9f8fafdaa005635d3cd85177a4804b2af0ad8d9bbc18531f00",
+      "integrated_reference_b_opening": "83d703f9a5c30ce7c481b571419b2b8467a520ad44687c8e2d356b8230bd6f41"
+    },
+    "source_drift_caveat": "Source A was reported to drift during earlier review. Opening and closing snapshots in this worker interval match, but no full or timeless equivalence is asserted.",
+    "integrated_reference_scope": "Behavior-only reference for ETL, SQLite, generated browser data, filters, trends, export and deployment boundaries; no file identity claim.",
+    "artifacts": [
+      {
+        "path": "scripts/dashboard/export_dashboard.py",
+        "source_a_sha256": "911e6043bd09085b98814a8592c68d11442070fc125db92eea66ce83b9ee3a04",
+        "baseline_sha256": "a40e95cb00450aa93be61bfd710d7a3edd87d708b6f9a1856840e58ef52a5d40",
+        "repair_sha256": "2b1b2f0fc6bcd3b9fe551f560106d7265da7b17b55d326d591edfca305b0be18"
+      },
+      {
+        "path": "scripts/etl/process_invoices.py",
+        "source_a_sha256": "58959b56f17463c7622f08aacf65e1bf1caf0e8e78b0d72c55a1a4498c12770f",
+        "baseline_sha256": "58959b56f17463c7622f08aacf65e1bf1caf0e8e78b0d72c55a1a4498c12770f",
+        "repair_sha256": "91e1bf1b70f5acfc2f3f60f2f186a5e149f02979e551d65be6b91beee7ad6b50"
+      },
+      {
+        "path": "dashboard/dist/dashboard.js",
+        "source_a_sha256": "d0fe09cd484ae544baf52b4f532ffa03f6f44d4c9c2b7a20a69ec8d0e7461bbb",
+        "baseline_sha256": "16c50a5a8fa22e02f238b56fdb923e22a0ef41f10685ca98e0690ae6c38b6823",
+        "repair_sha256": "16c50a5a8fa22e02f238b56fdb923e22a0ef41f10685ca98e0690ae6c38b6823"
+      },
+      {
+        "path": "automation/lib/RunDailyLatest.ps1",
+        "source_a_sha256": "6a2dc22409caa3cea8bbe1eec275868362e114255d656b0214636682470fadeb",
+        "baseline_sha256": "4ab4227db32172642af337b25ece5538da927d78b02362b09905168950a4f099",
+        "repair_sha256": "893e22f48ed41e3bae8c95e088ec4ce72a94b91912c3fb7ac2df6408bbf68452"
+      },
+      {
+        "path": "dashboard/index.html",
+        "source_a_sha256": "a9c58bc798a4db3254a596bce88397da7e9f2e2f18c09118d8563c1a3c2cc773",
+        "baseline_sha256": "5ca3a797bc9ddbd07ff43e148aeab95df1c2659b2ee4800a96348e5683cd6c",
+        "repair_sha256": "26565c949b4cf20260a928af1504faa0de45e7705b3a1c28ab06047efbb71c1a"
+      },
+      {
+        "path": "dashboard/data.js",
+        "source_a_sha256": "5a869a6c6d100f4ad77f967eb65503b7b79690503f18902ed255be1dc7547784",
+        "baseline_sha256": "4997f5ae17d1c165e14b21cb0d07294a0e32262061d1ede095d6ead9edcd8d11",
+        "repair_sha256": "5cf7e0ea67a32d2c2bc082050216eb48682f3e35af5f3327a72930a58c1e46a7"
+      }
+    ]
+  },
+  "local_evidence": {
+    "fixture_rows": 2,
+    "sqlite_rows": 2,
+    "amount_total": 80.5,
+    "sqlite_integrity": "ok",
+    "schema_columns": 23,
+    "owners": [
+      "Synthetic Owner 001",
+      "Synthetic Owner 002"
+    ],
+    "etl": "GREEN",
+    "filters": "GREEN",
+    "details": "GREEN",
+    "trends": "GREEN",
+    "refresh": "GREEN",
+    "export": "GREEN",
+    "preflight": "GREEN",
+    "unit_tests": "5/5 GREEN",
+    "browser": {
+      "status": "GREEN",
+      "engine": "Edge 151.0.4129.78",
+      "automation": "Playwright 1.58.0",
+      "console_errors": 0,
+      "console_warnings": 0,
+      "page_errors": 0,
+      "network_failures": 0,
+      "bad_http_responses": 0,
+      "external_requests": 0,
+      "detail_rows": 2,
+      "trend_cards": 4,
+      "screenshot_sha256": "231f79c14b0eb08dd2b359ce875792cbb5fcdb42470eb8d0437a9723df02d944"
+    },
+    "byte_scan": {
+      "status": "GREEN",
+      "findings": 0,
+      "scanner_literals_self_excluded": false
+    },
+    "generated_artifact_log": {
+      "status": "GREEN",
+      "raw_host_transcript": false,
+      "pack_relative_paths": true,
+      "host_identity_excluded": true,
+      "absolute_paths_excluded": true,
+      "sqlite_scan_handles_released": true
+    }
+  },
+  "deployment_contract": {
+    "default": "local_only",
+    "affirmative_flag": "--deploy",
+    "staging_before_promotion": true,
+    "validation_before_promotion": true,
+    "help_side_effects": false
+  },
+  "dependencies": {
+    "installed_trees_in_pack": false,
+    "python_pins": "requirements.txt",
+    "sbom": "sbom.cdx.json",
+    "vendored_inventory": "DEPENDENCIES.md"
+  },
+  "red_remaining": [
+    "RED_EXTERNAL_GATE"
+  ]
+}

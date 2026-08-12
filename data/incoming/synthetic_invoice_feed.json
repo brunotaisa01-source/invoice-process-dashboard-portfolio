@@ -1,0 +1,42 @@
+{
+  "rows": [
+    {
+      "reference": "SYN-INV-001",
+      "entry_date": "2026-08-10",
+      "posting_date": "2026-08-10",
+      "document_date": "2026-08-09",
+      "team_member": "Synthetic Owner 001",
+      "vendor_name": "Synthetic Supplier Alpha",
+      "supplier_number": "SYN-SUP-001",
+      "company_code": "SYN-CC-001",
+      "country": "Northland",
+      "payment_block": "",
+      "document_type": "KR",
+      "is_csv": 0,
+      "extraction_date": "2026-08-14",
+      "system": "SYS-A",
+      "amount": 125.5,
+      "document_number": "SYN-DOC-001",
+      "is_reversal": 0
+    },
+    {
+      "reference": "SYN-INV-002",
+      "entry_date": "2026-08-10",
+      "posting_date": "2026-08-09",
+      "document_date": "2026-08-08",
+      "team_member": "Synthetic Owner 002",
+      "vendor_name": "Synthetic Supplier Beta",
+      "supplier_number": "SYN-SUP-002",
+      "company_code": "SYN-CC-002",
+      "country": "Southland",
+      "payment_block": "SYN-BLOCK-001",
+      "document_type": "RE",
+      "is_csv": 1,
+      "extraction_date": "2026-08-14",
+      "system": "SYS-B",
+      "amount": -45.0,
+      "document_number": "SYN-DOC-002",
+      "is_reversal": 0
+    }
+  ]
+}

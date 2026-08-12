@@ -1,0 +1,11 @@
+{
+  "week_start": "2026-08-07",
+  "rows": [
+    {
+      "member": "Synthetic Owner 001",
+      "date": "2026-08-10",
+      "type": "Holiday",
+      "source": "synthetic_fixture"
+    }
+  ]
+}

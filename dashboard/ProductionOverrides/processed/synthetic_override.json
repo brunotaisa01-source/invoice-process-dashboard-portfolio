@@ -1,0 +1,17 @@
+{
+  "override_id": "SYN-OVR-001",
+  "week_start": "2026-08-07",
+  "date": "2026-08-10",
+  "from_member": "Synthetic Owner 001",
+  "to_member": "Synthetic Owner 002",
+  "count": 1,
+  "work_type": "manual",
+  "company_code": "SYN-CC-001",
+  "country": "Northland",
+  "document_type": "KR",
+  "reference": "SYN-OVERRIDE-REFERENCE-001",
+  "reason": "Synthetic coverage adjustment",
+  "source": "synthetic_fixture",
+  "created_at": "2026-08-11T00:00:00Z",
+  "created_by": "Synthetic Operator 001"
+}

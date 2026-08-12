@@ -1,0 +1,19 @@
+# Invoice Process Dashboard - Python dependencies
+# Install: pip install -r requirements.txt
+
+# Runtime: ERP Excel exports -> SQLite -> dashboard data/HTML
+pandas==2.2.3
+numpy==2.4.6
+openpyxl==3.1.5
+pywin32==311
+
+# Presentation/documentation helper
+python-pptx==1.0.2
+
+# Testing
+pytest==9.0.2
+pytest-cov==7.0.0
+playwright==1.58.0
+
+# Code quality
+ruff==0.15.6
