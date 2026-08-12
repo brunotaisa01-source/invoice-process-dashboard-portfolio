@@ -4,6 +4,8 @@ This is a complete local portfolio pack for a generic invoice process dashboard.
 
 For the portfolio overview, contribution scope and AI-assisted engineering context, see [PORTFOLIO_CONTEXT.md](PORTFOLIO_CONTEXT.md).
 
+For the visual architecture and validation gates, see [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+
 ## Quick start
 
 Exact validated dependency set: Python 3.11.9; `pandas==2.2.3`, `numpy==2.4.6`, `openpyxl==3.1.5`, `pywin32==311`, `python-pptx==1.0.2`, `pytest==9.0.2`, `pytest-cov==7.0.0`, and `ruff==0.15.6`. Optional syntax tool: Node.js 24.18.0. Install only from the manifest:
