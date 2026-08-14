@@ -8,14 +8,16 @@ For the visual architecture and validation gates, see [docs/ARCHITECTURE.md](doc
 
 ## What this project delivers
 
-- A generic invoice process dashboard with overview, details, trends, filters, refresh and CSV export.
-- Local invoice ETL, two SQLite handoffs, generated browser data and a validated promotion path.
-- Calendar, override, SLA and daily automation entrypoints using deterministic synthetic inputs.
-- Python, pytest, preflight, manifest, sanitization and browser validation contracts.
+This is an invoice process intelligence product with a complete local data-to-browser path. It combines a 23-column relational contract, invoice ETL, two SQLite handoffs, generated browser data, trend data, operator workflows and guarded automation entrypoints.
+
+- Overview, details and trends with filtering, refresh, row-level inspection and CSV export.
+- Synthetic invoice ingestion, SQLite promotion, generated `data.js`, trend cube output and a deployment-only affirmative flag.
+- Calendar, override, SLA and daily automation paths with bounded local inputs and explicit external-gate reporting.
+- Python, pytest, preflight, manifest, sanitization, E2E and browser validation covering the shipped contract.
 
 ## Problem it solves
 
-It gives finance and operations teams a repeatable view of invoice flow, ownership, aging and SLA-related workload. The local pipeline reduces manual reporting and makes process bottlenecks easier to identify without exposing operational data.
+It addresses the operational blind spots around invoice flow, ownership, aging, SLA workload and process bottlenecks. The pipeline replaces ad-hoc report rebuilding with a repeatable, validated handoff from invoice input to database, dashboard views, trends and exportable evidence.
 
 ## Quick start
 
